@@ -11,8 +11,8 @@
 SYS = LNX
 # Leave blank after "=" to disable; put "= 1" to enable
 WITH_LAPACK = 1
-FORCE_32BIT = 
-FORCE_DYNAMIC = 
+FORCE_32BIT =
+FORCE_DYNAMIC = 1
 DIST_NAME = gemma-0.96
 
 # --------------------------------------------------------------------

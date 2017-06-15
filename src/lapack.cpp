@@ -106,7 +106,7 @@ void lapack_float_cholesky_solve (gsl_matrix_float *A,
 	char UPLO='L';
 	
 	if (N!=(int)A->size2 || N!=LDB) {
-	  cout << "Matrix needs to be symmetric and same dimension in " <<cout
+	  cout << "Matrix needs to be symmetric and same dimension in " <<
 	    "lapack_cholesky_solve." << endl;
 	  return;
 	}
